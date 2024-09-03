@@ -1,0 +1,767 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+}
+
+.bg {
+    gap: 1rem;
+}
+
+.bgcard1, .bgcard2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa; 
+    border: 1px solid black; 
+    border-bottom-width: 3px; 
+    border-radius: 40px;
+    padding: 1rem;
+    height: 400px; 
+}
+
+
+.bgcard2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color:#b9ff66; 
+    border: 1px solid black; 
+    border-bottom-width: 3px; 
+    border-radius: 40px;
+    padding: 1rem;
+    height: 400px; 
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.learn-more-container {
+    display: flex;
+    align-items: center;
+}
+
+.learn-more-btn {
+    background: black; 
+    border: none;
+    cursor: pointer;
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-icon {
+    width: 20px; 
+    height: 20px; 
+
+}
+
+.card-title {
+    position: relative;
+}
+
+.text-highlight {
+    position: relative;
+    display: inline;
+    background-color: #baff63;
+    padding: 2px;
+    border-radius: 13px !important;
+}
+
+.text-highlight1{
+    position: relative;
+    display: inline;
+    background-color:white;
+    padding: 2px; 
+    border-radius: 13px !important
+     
+}
+
+.card-container {
+    margin-bottom: 1rem; 
+
+}
+
+.resimg1 img{
+
+    height: auto;
+    
+    margin-top: 10%;
+}
+
+.resimg2 img{
+    height: auto;
+    margin-top: 10%;
+    width: 25em;
+}
+
+.twocard{
+    height: auto;
+}
+@media (max-width: 768px) {
+    .bg {
+        flex-direction: column; 
+    }
+}
+
+@media (max-width: 1400px) {
+    .hero-image {
+        width: 55em !important;
+    }
+}
+
+.brd {
+    padding: 0 0 4em 0;
+    margin-top: 8%;
+}
+
+ 
+.service {
+    gap: 1rem;
+    padding: 4em 0 3em 0;
+}
+
+.service button {
+    font-weight: 600;
+}
+
+.btservice {
+    background-color: #bbfe67;
+    color: black !important;
+}
+
+
+.lgbtn{
+    margin-top: 50%;
+}
+.lgbtn1{
+    margin-top: 50%;
+}
+
+@media (max-width: 991px) {
+    .bgcard2 .learn-more-container{
+        margin-top: 102px !important;
+    }
+
+    .resimg2 img{
+        width: 200px;
+        height: 120px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .bg {
+        flex-direction: column; 
+    }
+
+    .d-flex {
+        flex-direction: column; 
+    }
+
+    .card-body {
+        text-align: center; 
+    }
+
+    .resimg1 img, .resimg2 img {
+        display: block;
+        margin: 0 auto; 
+    }
+
+    .learn-more-container {
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        order: 2; 
+        margin-top: 20px; 
+    }
+
+    .learn-more-btn {
+        margin-right: 10px; 
+    }
+
+    .learn-more-text {
+        display: inline; 
+    }
+
+    .resimg2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .twocard{
+        position: relative;
+        width: 100%;
+        height: 500px; 
+        border: 1px solid #ddd; 
+    }
+
+    .bgcard2{
+        position: relative;
+        width: 100%;
+        height: 500px; 
+        border: 1px solid #ddd; 
+    }
+}
+
+@media (max-width: 767px) {
+   .process{
+    margin-top: 15%;
+    text-align: center;
+   }
+}
+
+@media (max-width: 406px) {
+    .process{
+     margin-top: 25%;
+     text-align: center;
+    }
+ }
+
+ @media (max-width: 405px) {
+    .process{
+     margin-top: 28%;
+     text-align: center;
+    }
+ }
+ @media (max-width: 364px) {
+    .process{
+     margin-top: 38%;
+     text-align: center;
+    }
+ }
+
+
+ /*  */
+
+
+ .card-title {
+    font-size: 3rem; 
+    margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+    font-size: 1.25rem; 
+    margin-bottom: 1rem; 
+}
+
+.btn-circle {
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%;
+    background-color: #f3f3f4; 
+    color: black; 
+    border: none; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 1.5rem; 
+    cursor: pointer; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-text {
+    margin-top: 1.5rem; 
+}
+
+.borderdown{
+    border-bottom: 2px solid #86c343;
+}
+
+.large-card{
+    background-color: #f3f3f3;
+    border-radius: 40px;
+}
+.container-custom {
+    border-radius: 0 15px 15px 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .contactus{
+    
+     text-align: center;
+    }
+ }
+
+
+ /* form */
+
+
+ .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    border-radius: 40px;
+    background-color: #f3f3f3;
+
+    padding: 20px;
+    flex: 1;
+}
+
+.form-wrapper {
+    flex: 1;
+    max-width: 100%;
+}
+
+.image-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .image-wrapper {
+        display: none;
+    }
+}
+
+
+
+
+/* footer */
+
+.formmain1 {
+    margin-top: 3em;
+    /* border: 1px solid red; */
+    border-radius: 30px 30px 0 0;
+    width: 100% !important;
+    height: 32em;
+    background-color: black;
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: transparent;
+    width: 100%;
+}
+
+.brand-logo img {
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-media-icons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.social-media-icons a:hover {
+    color: #1DA1F2;
+}
+
+.footsec {
+    margin-top: 2em;
+    padding: 1em;
+    color: white;
+}
+
+.twobtn {
+    border: 1px solid white;
+    background-color: #2a2a32;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.twobtn .btn {
+    width: 100%;
+    margin-top: 1em;
+}
+
+@media (max-width: 767px) {
+    .main-navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-top: 1em;
+    }
+
+    .nav-links li {
+        margin: 0.5em 0;
+    }
+
+    .formmain1 {
+        height: auto;
+        padding: 1em;
+    }
+
+    .footsec {
+        text-align: center;
+    }
+
+    .twobtn {
+        margin-top: 2em;
+    }
+
+    .social-media-icons {
+        justify-content: center;
+        margin-top: 2em;
+    }
+
+    hr {
+        margin-top: 2em;
+    }
+
+    .footmedia {
+        margin-top: 2em;
+    }
+}
+
+.social-media-icons{
+    margin-left: 2%;
+}
+ .twobtn{
+    margin-top: 10%;
+    border-radius: 20px !important;
+    height: 10em;
+ }
+
+ .btformcontact{
+    background-color: #bbfe67 !important;
+    color: black !important;
+ }
+ @media (max-width: 1200px) {
+    .main-navbar {
+        justify-content: center;
+        gap: 10px; 
+        width: 940px;
+    }
+}
+
+.large-card-container{
+    border-bottom: 2px solid black;
+}
+
+@media (max-width: 991px) {
+    .main-navbar {
+        justify-content: center;
+        gap: 8px; 
+        width: 690px;
+    }
+   .main-navbar .nav-links a{
+font-size: 14px;
+   } 
+
+   .main-navbar .social-media-icons a{
+    font-size: 14px;
+   }
+}
+
+@media (max-width: 767px) {
+    .main-navbar {
+        justify-content: center;
+        gap: 8px; 
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .btformcontact{
+        position: absolute;
+        top: 230em;
+        left: 20em;
+    }
+
+    .main-navbar .social-media-icons a{
+        margin-left: 12px;
+    }
+}
+
+@media (max-width: 740px) {
+    .btformcontact{
+        
+        top: 230em;
+        left: 19em;
+    }
+}
+
+@media (max-width: 718px) {
+    .btformcontact{
+        
+        top: 229em;
+        left: 18em;
+    }
+}
+
+@media (max-width: 682px) {
+    .btformcontact{
+        
+        top: 229em;
+        left: 17em;
+    }
+}
+
+@media (max-width: 654px) {
+    .btformcontact{
+        
+        top: 228em;
+        left: 17em;
+    }
+}
+
+
+@media (max-width: 682px) {
+    .btformcontact{
+        
+        top: 228em;
+        left: 16em;
+    }
+}
+
+@media (max-width: 611px) {
+    .btformcontact{
+       
+        top: 226em;
+        left: 15.5em;
+    }
+}
+
+@media (max-width: 557px) {
+    .btformcontact{
+        
+        top: 225em;
+        left: 15em;
+    }
+}
+@media (max-width: 539px) {
+    .btformcontact{
+        
+        top: 224em;
+        left: 14em;
+    }
+}
+
+@media (max-width: 520px) {
+    .btformcontact{
+        
+        top: 223em;
+        left: 13em;
+    }
+}
+@media (max-width: 504px) {
+    .btformcontact{
+        
+        top: 221em;
+        left: 12.5em;
+    }
+    .footp{
+        font-size: 13px;
+    }
+}
+@media (max-width: 489px) {
+    .btformcontact{
+        
+        top: 220em;
+        left: 12em;
+    }
+}
+
+@media (max-width: 457px) {
+    .btformcontact{
+        
+        top: 220em;
+        left: 11.5em;
+    }
+}
+@media (max-width: 455px) {
+    .btformcontact{
+        
+        top: 222.5em;
+        left: 11.5em;
+    }
+}
+@media (max-width: 447px) {
+    .btformcontact{
+        
+        top: 221em;
+        left: 11em;
+    }
+}
+@media (max-width: 445px) {
+    .btformcontact{
+        
+        top: 223em;
+        left: 11em;
+    }
+}
+@media (max-width: 441px) {
+    .btformcontact{
+        
+        top: 224em;
+        left: 11em;
+    }
+}
+
+@media (max-width: 427px) {
+    .btformcontact{
+        
+        top: 222.5em;
+        left: 10.5em;
+    }
+}
+@media (max-width: 425px) {
+    .btformcontact{
+        
+        top: 224em;
+        left: 10em;
+    }
+}
+
+@media (max-width: 409px) {
+    .btformcontact{
+        width: auto;
+        top: 223em;
+        left: 10em;
+    }
+}
+
+@media (max-width: 408px) {
+    .btformcontact{
+        width: auto;
+        top: 224em;
+        left: 10em;
+    }
+}
+
+@media (max-width: 406px) {
+    .btformcontact{
+        width: auto;
+        top: 226em;
+        left: 10em;
+    }
+}
+@media (max-width: 402px) {
+    .btformcontact{
+        
+        top: 226em;
+        left: 9.5em;
+    }
+}
+
+@media (max-width: 389px) {
+    .btformcontact{
+        
+        top: 226em;
+        left: 9em;
+    }
+}
+
+@media (max-width: 381px) {
+    .btformcontact{
+        
+        top: 225em;
+        left: 9em;
+    }
+}
+
+@media (max-width: 375px) {
+    .btformcontact{
+        
+        top: 224em;
+        left: 8.5em;
+    }
+    .footp{
+        font-size: 11px;
+    }
+}
+@media (max-width: 364px) {
+    .btformcontact{
+        
+        top: 225em;
+        left: 8em;
+    }
+}
+
+@media (max-width: 354px) {
+    .btformcontact{
+        
+        top: 224em;
+        left: 8em;
+    }
+}
+
+@media (max-width: 351px) {
+    .btformcontact{
+        
+        top: 225em;
+        left: 8em;
+    }
+}
+
+@media (max-width: 344px) {
+    .btformcontact{
+        
+        top: 226em;
+        left: 7.5em;
+    }
+}
+@media (max-width: 337px) {
+    .btformcontact{
+        
+        top: 227em;
+        left: 7.5em;
+    }
+}
+@media (max-width: 331px) {
+    .btformcontact{
+        
+        top: 227em;
+        left: 7em;
+    }
+}
+
+@media (max-width: 323px) {
+    .btformcontact{
+        
+        top: 230em;
+        left: 7em;
+    }
+}
